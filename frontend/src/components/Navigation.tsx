@@ -20,6 +20,10 @@ const Navigation: React.FC<NavigationProps> = ({
   return (
     <nav className="bg-green-600">
       <div className="container flex flex-wrap items-center justify-between py-3">
+        <img 
+                src = {Reply}
+                className = "w-10 h-10 mr-1.5 font bold"
+                />
         <Link
           to="/"
           className="inline-flex items-center self-center text-2xl font-semibold whitespace-nowrap text-white"
@@ -30,10 +34,6 @@ const Navigation: React.FC<NavigationProps> = ({
         <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
           <div className="relative ml-3">
             <Menu>
-              <img 
-                src = {Reply}
-                className = "w-10 h-10 mr-1.5 font bold"
-                />
               <Menu.Button className="text-center inline-flex items-center text-white text-sm underline-offset-2 hover:underline">
                 {userInfo?.attributes?.email}
                 <ChevronDownIcon className="w-3 h-3 ml-1 text-white" />
