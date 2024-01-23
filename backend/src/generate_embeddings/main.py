@@ -40,7 +40,7 @@ def lambda_handler(event, context):
 
     bedrock_runtime = boto3.client(
         service_name="bedrock-runtime",
-        region_name="eu-central-1",
+        region_name="us-east-1",
     )
 
     embeddings = BedrockEmbeddings(
