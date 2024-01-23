@@ -54,6 +54,7 @@ const Navigation: React.FC<NavigationProps> = ({
                 </div>
               </Menu.Items>
             </Menu>
+          </div>
         </div>
       </div>
     </nav>
