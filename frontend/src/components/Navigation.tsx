@@ -26,7 +26,8 @@ const Navigation: React.FC<NavigationProps> = ({
         >
           <img 
             src = {Reply}
-            
+            height = {20}
+            width = {20}
             className = "w-6 h-6 mr-1.5"
             />
           <ChatBubbleLeftRightIcon className="w-6 h-6 mr-1.5" />
