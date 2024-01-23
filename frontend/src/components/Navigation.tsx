@@ -24,13 +24,14 @@ const Navigation: React.FC<NavigationProps> = ({
        
         <img 
           src = {Reply}
-          className = "w-6 h-6 mr-1.5"
+          {/*mr-1.5*/}
+          className = "w-8 h-8"
           />
     
         <Link
           to="/"
           className="inline-flex items-center self-center text-2xl font-semibold whitespace-nowrap text-white">
-          <ChatBubbleLeftRightIcon className="w-6 h-6 mr-1.5" />
+          <ChatBubbleLeftRightIcon className="w-8 h-8 mr-1.5" />
           DocChat
         </Link>
         <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
