@@ -19,9 +19,9 @@ const Navigation: React.FC<NavigationProps> = ({
 }: NavigationProps) => {
   return (
     <nav className="bg-green-600">
-      <div className="container flex items-center justify-between py-3">
+      <div className="container flex flex-wrap items-center justify-between py-3">
         {/* Logo */}
-        <div className= "flex items-center">
+       
         <img 
           src = {Reply}
           className = "w-6 h-6 mr-1.5"
@@ -33,8 +33,7 @@ const Navigation: React.FC<NavigationProps> = ({
           <ChatBubbleLeftRightIcon className="w-6 h-6 mr-1.5" />
           DocChat
         </Link>
-        </div>
-          {/*<div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">*/}
+        <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
           <div className="relative ml-3">
             <Menu>
               <Menu.Button className="text-center inline-flex items-center text-white text-sm underline-offset-2 hover:underline">
