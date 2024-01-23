@@ -19,20 +19,21 @@ const Navigation: React.FC<NavigationProps> = ({
 }: NavigationProps) => {
   return (
     <nav className="bg-green-600">
-      <div className="flex items-center py-3 pl-3">
+      <div className="container flex items-center justify-between py-3">
+        {/* Logo */}
+        <div className= "flex items-center">
         <img 
           src = {Reply}
-          className = "w-10 h-10 mr-1.5 font bold"
+          className = "w-6 h-6 mr-1.5"
           />
-        </div>
-        <div className="container flex items-center justify-between py-3">
+    
         <Link
           to="/"
-          className="inline-flex items-center self-center text-2xl font-semibold whitespace-nowrap text-white"
-        >
+          className="inline-flex items-center self-center text-2xl font-semibold whitespace-nowrap text-white">
           <ChatBubbleLeftRightIcon className="w-6 h-6 mr-1.5" />
           DocChat
         </Link>
+        </div>
           {/*<div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">*/}
           <div className="relative ml-3">
             <Menu>
