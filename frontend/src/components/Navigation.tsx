@@ -19,11 +19,11 @@ const Navigation: React.FC<NavigationProps> = ({
 }: NavigationProps) => {
   return (
     <nav className="bg-green-600">
-      <div className="container flex flex-wrap items-center justify-between py-3">
-        <img 
+      <img 
                 src = {Reply}
                 className = "w-10 h-10 mr-1.5 font bold"
                 />
+      <div className="container flex flex-wrap items-center justify-between py-3">
         <Link
           to="/"
           className="inline-flex items-center self-center text-2xl font-semibold whitespace-nowrap text-white"
