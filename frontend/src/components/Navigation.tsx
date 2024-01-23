@@ -24,7 +24,7 @@ const Navigation: React.FC<NavigationProps> = ({
        
         <img 
           src = {Reply}
-          {/*mr-1.5*/}
+        
           className = "w-8 h-8"
           />
     
