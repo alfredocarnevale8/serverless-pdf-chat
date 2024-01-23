@@ -31,9 +31,7 @@ const Navigation: React.FC<NavigationProps> = ({
           <div className="relative ml-3">
             <img 
             src = {Reply}
-            height = {50}
-            width = {50}
-            className = "w-6 h-6 mr-1.5"
+            className = "w-10 h-10 mr-1.5 font bold"
             />
             <Menu>
               <Menu.Button className="text-center inline-flex items-center text-white text-sm underline-offset-2 hover:underline">
