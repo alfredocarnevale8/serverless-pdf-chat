@@ -5,7 +5,7 @@ import {
   ChevronDownIcon,
 } from "@heroicons/react/24/outline";
 import { ChatBubbleLeftRightIcon } from "@heroicons/react/24/solid";
-import {Reply} from "../../public/logo_reply.png"
+import Reply from "../../public/logo_reply.png"
 interface NavigationProps {
   userInfo: any;
   handleSignOutClick: (
