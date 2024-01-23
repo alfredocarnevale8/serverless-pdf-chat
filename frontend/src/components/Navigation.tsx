@@ -24,7 +24,7 @@ const Navigation: React.FC<NavigationProps> = ({
                 src = {Reply}
                 className = "w-10 h-10 mr-1.5 font bold"
                 />
-        /div>
+        </div>
       <div className="container flex flex-wrap items-center justify-between py-3">
         <Link
           to="/"
