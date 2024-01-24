@@ -21,13 +21,11 @@ const Navigation: React.FC<NavigationProps> = ({
     <nav className="bg-green-600">
       <div className="container flex flex-wrap items-center justify-between py-3">
         {/* Logo */}
-       
-        <img 
-          src = {Reply}
-        
-          className = "w-10 h-10 bold"
-          />
-    
+        <Link
+          to = "https://www.reply.com/"
+          
+        <img src = {Reply} className = "w-10 h-10 bold"/>
+        </Link>
         <Link
           to="/"
           className="inline-flex items-center self-center text-2xl font-semibold whitespace-nowrap text-white">
