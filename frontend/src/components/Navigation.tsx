@@ -23,8 +23,8 @@ const Navigation: React.FC<NavigationProps> = ({
         {/* Logo */}
         <Link
           to = "https://www.reply.com/"
-          className="inline-flex items-center self-center text-2xl font-semibold whitespace-nowrap text-white">
-          <img src = {Reply} className = "w-10 h-10 bold"/>
+          className="inline-flex items-center self-center text-2xl font-bold whitespace-nowrap text-white">
+          <img src = {Reply} className = "w-10 h-10 font-bold"/>
         </Link>
         <Link
           to="/"
